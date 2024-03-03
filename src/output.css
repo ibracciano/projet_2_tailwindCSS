@@ -1066,6 +1066,34 @@ footer li:hover{
   font-weight: 600;
 }
 
+.leading-3{
+  line-height: .75rem;
+}
+
+.leading-7{
+  line-height: 1.75rem;
+}
+
+.leading-10{
+  line-height: 2.5rem;
+}
+
+.leading-\[1\.5\]{
+  line-height: 1.5;
+}
+
+.leading-\[1\.5px\]{
+  line-height: 1.5px;
+}
+
+.leading-\[20px\]{
+  line-height: 20px;
+}
+
+.leading-\[1\.8\]{
+  line-height: 1.8;
+}
+
 .text-bleuClair{
   --tw-text-opacity: 1;
   color: rgb(21 44 91 / var(--tw-text-opacity));
@@ -1213,6 +1241,11 @@ footer li:hover{
     margin-bottom: 1rem;
   }
 
+  .md\:my-1{
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+
   .md\:mb-8{
     margin-bottom: 2rem;
   }
@@ -1340,6 +1373,14 @@ footer li:hover{
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .md\:\!\[transform-style\:none\]{
+    transform-style: none !important;
+  }
+
+  .md\:\[transform-style\:none\]{
+    transform-style: none;
+  }
 }
 
 @media (min-width: 1044px){
@@ -1351,6 +1392,11 @@ footer li:hover{
   .lg\:my-20{
     margin-top: 5rem;
     margin-bottom: 5rem;
+  }
+
+  .lg\:my-8{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .lg\:mb-10{
@@ -1474,5 +1520,51 @@ footer li:hover{
   .lg\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-sm{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .lg\:text-\[16px\]{
+    font-size: 16px;
+  }
+
+  .lg\:text-\[20px\]{
+    font-size: 20px;
+  }
+
+  .lg\:leading-\[1\.8\]{
+    line-height: 1.8;
+  }
+
+  .lg\:leading-\[1\.6\]{
+    line-height: 1.6;
+  }
+
+  .lg\:leading-\[1\.5\]{
+    line-height: 1.5;
+  }
+
+  .lg\:leading-\[1\.4\]{
+    line-height: 1.4;
+  }
+
+  .lg\:\[transform-style\:preserve-3d\]{
+    transform-style: preserve-3d;
+  }
+
+  .lg\:\[transform\:rotateY\(-12deg\)\]{
+    transform: rotateY(-12deg);
+  }
+
+  .lg\:hover\:\[transform\:rotateY\(0deg\)\]:hover{
+    transform: rotateY(0deg);
   }
 }
